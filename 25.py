@@ -27,4 +27,4 @@ def match(s,re,):
 			return ppmatch(s,re,si+1,rei+1,)
 	return ppmatch(s,pp,0,0)
 for test in tests: print(test,match(*test),sep=" :\n")
-input()ff
+input()
